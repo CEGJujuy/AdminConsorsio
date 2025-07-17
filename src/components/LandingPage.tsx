@@ -414,15 +414,15 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnterApp }) => {
               <div className="space-y-3 text-primary-300">
                 <div className="flex items-center gap-3">
                   <Phone size={16} />
-                  <span>+54 11 4567-8900</span>
+                  <span>+543884858907</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail size={16} />
-                  <span>info@adminconsorcio.com</span>
+                  <span>gonzalezeduardo_31@hotmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin size={16} />
-                  <span>Buenos Aires, Argentina</span>
+                  <span>San Salvador de Jujuy, Argentina</span>
                 </div>
               </div>
             </div>
