@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import LandingPage from './components/LandingPage';
 import Layout from './components/Layout';
 import Dashboard from './components/Dashboard';
 import ConsorciosManager from './components/ConsorciosManager';
@@ -9,6 +10,15 @@ import AvisosManager from './components/AvisosManager';
 
 function App() {
   const [currentView, setCurrentView] = useState('dashboard');
+  const [showLanding, setShowLanding] = useState(true);
+
+  const handleEnterApp = () => {
+    setShowLanding(false);
+  };
+
+  if (showLanding) {
+    return <LandingPage onEnterApp={handleEnterApp} />;
+  }
 
   const renderCurrentView = () => {
     switch (currentView) {
