@@ -281,13 +281,6 @@ Este proyecto está abierto a contribuciones. Para colaborar:
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 📞 Soporte
-
-Para soporte técnico o consultas:
-- **Issues**: Crear issue en GitHub
-- **Email**: [tu-email@ejemplo.com]
-- **Documentación**: Wiki del proyecto
-
 ---
 
 **AdminConsorcio** - Gestión profesional de expensas para el siglo XXI 🏢✨
